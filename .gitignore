@@ -5,8 +5,10 @@
 bin/
 *.class
 
-# Eclipse per-project files kept (.project, .classpath, .settings/) so
-# the workspace is reproducible. Remove from this ignore file if not desired.
+# Eclipse per-project files
+.project
+.classpath
+.settings/
 
 # Build output
 target/
