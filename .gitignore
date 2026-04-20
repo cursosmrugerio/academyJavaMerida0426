@@ -1,0 +1,25 @@
+# Eclipse workspace metadata
+.metadata/
+
+# Compiled class files
+bin/
+*.class
+
+# Eclipse per-project files kept (.project, .classpath, .settings/) so
+# the workspace is reproducible. Remove from this ignore file if not desired.
+
+# Build output
+target/
+build/
+out/
+
+# Logs
+*.log
+
+# macOS
+.DS_Store
+
+# IntelliJ / VS Code (por si se usan en paralelo)
+.idea/
+*.iml
+.vscode/
