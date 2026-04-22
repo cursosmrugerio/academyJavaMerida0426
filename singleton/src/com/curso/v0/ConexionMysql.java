@@ -3,7 +3,7 @@ package com.curso.v0;
 //SINGLETON
 public class ConexionMysql {
 	
-	String port;
+	String port; //HAS-A
 
 	public ConexionMysql(String port) {
 		this.port = port;
