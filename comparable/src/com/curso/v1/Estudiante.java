@@ -1,5 +1,9 @@
 package com.curso.v1;
 
+//import java.lang.Comparable;
+//import java.lang.String;
+//import java.lang.System;
+
 public class Estudiante implements Comparable<Estudiante> {
 	
 	private String nombre;
