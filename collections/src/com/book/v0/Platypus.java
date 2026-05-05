@@ -1,0 +1,27 @@
+package com.book.v0;
+
+import java.util.*;
+
+public record Platypus(String name, int beakLength) {
+
+	@Override
+	public String toString() {
+		return ""+beakLength;
+	}
+
+	public static void main(String[] args) {
+		Platypus p1 = new Platypus("Paula", 3);
+		Platypus p2 = new Platypus("Peter", 5);
+		Platypus p3 = new Platypus("Peter", 7);
+
+		List<Platypus> list = Arrays.asList(p1, p2, p3);
+		
+		Collections.sort(list, Comparator.comparing(
+				          //(t,u)-> t.beakLength - u.beakLength
+							Platypus::beakLength).reversed());
+
+		
+		System.out.println(list);
+	}
+
+}
